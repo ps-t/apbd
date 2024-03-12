@@ -2,11 +2,17 @@
 
 Console.WriteLine("Hello, World!");
 
-for (int i = 0; i < 100; i++)
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
+
+static double GetAverage(int[] numbers)
 {
-    Console.WriteLine(i);
+    double sum = 0;
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        sum += numbers[i];
+    }
+    return sum / numbers.Length:
 }
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!");
